@@ -1,0 +1,67 @@
+body {
+  background-image: url('../../assets/fondop.jpeg');
+  background-size: auto 100%;
+
+}
+.Homecont {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont{
+  display: flex;
+  background-color: #acdf3e;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.cont{
+  display: flex;
+  align-items: center;
+  background-color: #acdf3e;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+
+}
+
+
+
+.btnHome{
+  backdrop-filter: blur(8px);
+  background-color: rgba(209, 209, 209, 0.289);
+  border: 2px solid rgba(0, 0, 0, 0.167);
+  align-items: left;
+  color: rgb(95, 95, 95);
+  border: none;
+  padding: 9px 12px; 
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.btnHome:hover {
+  background-color: #acdf3e;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.522);
+  transform: translateY(-2px);
+}
+ 

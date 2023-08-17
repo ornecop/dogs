@@ -1,0 +1,214 @@
+body {
+  background-image: url('../../assets/fondop.jpeg');
+  background-size: auto 100%;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 35%;
+  height: 70%;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #acdf3e;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+ button[type="submit"] {
+  margin-top: 20px;
+} 
+
+.text1{
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div select {
+  font-size: 1em;
+  padding: 0.5em;
+  margin-right: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.allSelecction {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.allSelecction li {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5em;
+  padding: 0.2em 0.5em;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.allSelecction li p {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.allSelecction li button {
+  margin-left: 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #acdf3e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.allSelecction li button:hover {
+  background-color: #c4eb5f;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-1px);
+}
+
+.text{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.x{
+  background-color: #acdf3e;
+  color: white;
+  border: none;
+  padding: 10px 15px 10px 20px; 
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px #acdf3e;
+  transition: all 0.2s ease-in-out;
+}
+
+.x:hover{
+  background-color: #acdf3e;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.522);
+  transform: translateY(-2px);
+}
+
+.h1{
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 5px;
+  padding: 20px;
+}
+
+.btnDog{
+  background-color: #0f100b;
+  color: white;
+  border: none;
+  padding: 10px 15px 10px 20px; 
+  border-radius: 5px;
+  cursor: pointer;
+ justify-content: center;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px #acdf3e;
+  transition: all 0.2s ease-in-out;
+}
+
+.btnDog:hover{
+  background-color: #acdf3e;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.522);
+  transform: translateY(-2px);
+}
+.btnDog2{
+  background-color: #acdf3e;
+  color: white;
+  border: none;
+  padding: 10px 15px 10px 20px; 
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px #acdf3e;
+  transition: all 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.btnDog2:hover{
+  background-color: #acdf3e;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.522);
+  transform: translateY(-2px);
+}
+
+input[type='text'] {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  width: 300px;
+  display: flex;
+  align-items: center;    
+  margin-left: 20px;
+}

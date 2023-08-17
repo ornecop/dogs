@@ -1,0 +1,88 @@
+body {
+  background-image: url('../../assets/fondop.jpeg');
+  background-size: auto 100%;
+
+}
+
+.cuerpoTarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 35%;
+    height: 50%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #acdf3e;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(8px);
+    background-color: #acdf3eaa;
+    transition: all 0.3s ease-in-out
+
+  }
+
+  img{
+    object-fit: cover;
+    width: 98%;
+    border-radius: 10px;
+    height: auto;
+    width: 30em;
+    height: 15em;
+  }
+
+  
+.Title{
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 2px;
+  padding: 2px;
+}
+
+.textprin{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.textdet{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link{
+    background-color: #acdf3e;
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px #acdf3e;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.522);
+}
+
+.link:hover{
+    background-color: #acdf3e;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.522);
+    transform: translateY(-2px);
+} 
+
+

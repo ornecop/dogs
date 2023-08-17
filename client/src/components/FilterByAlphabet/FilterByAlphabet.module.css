@@ -1,0 +1,55 @@
+
+
+.nameFilter {
+  backdrop-filter: blur(8px);
+  background-color: rgba(209, 209, 209, 0.289);
+  border: 2px solid rgba(0, 0, 0, 0.167);
+  align-items: left;
+  color: rgb(95, 95, 95);
+  border: none;
+  padding: 10px 12px; 
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+}
+
+.nameFilter:hover {
+  background-color: #acdf3e;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.522);
+  transform: translateY(-2px);
+}
+
+.nameFilter:hover {
+  background-color: #acdf3e;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.522);
+  transform: translateY(-2px);
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .nameFilter {
+    margin: 10px;
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
+

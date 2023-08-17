@@ -1,0 +1,112 @@
+.container{
+  width: fit-content;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: var(--color-3);
+  border: 3px solid var(--color-3);
+  border-radius: 10px;
+  width: 15em;
+  height: 25em;
+  float: left; 
+  clear: auto;
+  margin-left: 70px;
+  margin-bottom: 50px;
+  backdrop-filter: blur(8px);
+  background-color: rgba(209, 209, 209, 0.289);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.img{
+  object-fit: cover;
+  width: 98%;
+  border-radius: 10px;
+  height: auto;
+  width: 15em;
+  height: 15em;
+  filter: grayscale(100%);
+}
+
+.container:hover .img {
+  filter: none;
+}
+
+.container:hover  {
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  background-color: #acdf3e86;
+  transition: all 0.3s ease-in-out;
+  }
+  
+  .container:hover {
+    transform: scale(1.1);
+  }
+
+.name{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.data,
+.data2,
+.data3 {
+  display: none;
+}
+
+.container:hover .data{
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  filter: none;
+}
+.data{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container:hover .data2,
+.container:hover .data3 {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  filter: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner:hover .name{
+  filter: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 550px;
+  }
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #acdf3e;
+    height: 80px;
+}
+  
+.contenedor {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+  }
+  
+.tit {
+    color: rgba(9, 9, 9, 0.925);
+    font-size: 3rem;
+    margin-right: 0.5em;
+    font-family: 'Sigmar', cursive;
+  }
+
+
+
+  
+  /* Añadimos este media query para reducir el tamaño del título en pantallas pequeñas */
+  @media (max-width: 576px) {
+    .tit {
+      font-size: 1.5rem;
+    }
+  }
+  
